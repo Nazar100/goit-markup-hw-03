@@ -23,7 +23,7 @@ body {
   line-height: 1.71;
 }
 .header {
-  padding: 24px 215px;
+  /* padding: 24px 215px; */
 }
 .container {
   margin-left: auto;
@@ -31,10 +31,11 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /* border: 3px solid tomato; */
+  border: 3px solid tomato;
 }
 .section {
-  padding: 94px 215px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   /* background-color: blueviolet; */
 }
 .section.no-padding {
@@ -54,14 +55,26 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
   margin-top: 0px;
   margin-bottom: 30px;
 }
 /* фон, щоб було видно слова */
-
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  margin-left: 75px;
+  /* margin-top: 35px; */
+}
+.nav-contacts {
+  display: flex;
+  margin-left: auto;
+}
 /* logo */
 .logo {
   text-decoration: none;
@@ -78,7 +91,15 @@ body {
 }
 
 /* nav */
+
+.nav-list-link + .nav-list-link {
+  margin-left: 50px;
+}
 .nav-link {
+  display: block;
+  padding-top: 21px;
+  padding-bottom: 21px;
+
   color: var(--captions);
   font-weight: 500;
   font-size: 14px;
@@ -88,7 +109,9 @@ body {
 .nav-link:focus {
   color: var(--add-text);
 }
-
+.nav-list-contacts + .nav-list-contacts {
+  margin-left: 30px;
+}
 .current {
   color: var(--add-text);
 }
@@ -133,8 +156,8 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  text-align: center;
 
+  text-align: center;
   margin-top: 0px;
   margin-bottom: 50px;
 }
@@ -150,7 +173,22 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  margin: 0px;
 }
+
+.benefits-list {
+  display: flex;
+}
+.benefits-list-item {
+  width: 270px;
+}
+.benefits-list-item + .benefits-list-item {
+  margin-left: 30px;
+}
+.icon {
+  margin-bottom: 30px;
+}
+
 /* фон, щоб було видно слова */
 .caption-name {
   font-weight: 500;
@@ -171,7 +209,6 @@ body {
 }
 .our-teem {
   background: var(--alt-background);
-  padding: 94px 215px;
 }
 .photo {
   margin-bottom: 30px;
@@ -194,9 +231,9 @@ body {
   margin-top: 0px;
   margin-bottom: 4px;
 }
-.nav {
+/* .nav {
   padding-bottom: 50px;
-}
+} */
 .portfolio-button {
   color: var(--captions);
   background-color: var(--alt-background);

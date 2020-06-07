@@ -17,31 +17,34 @@
   <body>
     <header>
       <div class="container">
-        <nav>
+        <nav class="main-nav">
           <a href="index.html" class="logo">
             <span class="web">Web</span> <span class="studio"> Studio</span></a
           >
-          <ul class="list">
-            <li><a href="" class="nav-link link current">Студия</a></li>
-            <li>
+          <ul class="list nav">
+            <li class="nav-list-link">
+              <a href="" class="nav-link link current">Студия</a>
+            </li>
+            <li class="nav-list-link">
               <a href="./portfolio.html" class="nav-link link">Портфолио </a>
             </li>
-            <li><a href="" class="nav-link link">Контакты</a></li>
+            <li class="nav-list-link">
+              <a href="" class="nav-link link">Контакты</a>
+            </li>
           </ul>
-          <address>
-            <ul class="list">
-              <li>
-                <a href="mailto:info@devstudio.com" class="contacts link"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a href="tel:+380961111111" class="contacts link"
-                  >+38 096 111 11 11</a
-                >
-              </li>
-            </ul>
-          </address>
+
+          <ul class="list nav-contacts">
+            <li class="nav-list-contacts">
+              <a href="mailto:info@devstudio.com" class="contacts link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="nav-list-contacts">
+              <a href="tel:+380961111111" class="contacts link"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
@@ -52,30 +55,56 @@
       </section>
       <section class="section">
         <div class="container">
-          <h2>Преимущества</h2>
-          <ul class="list">
-            <li>
+          <h2 style="margin: 0; color: #ffffff; font-size: 1px;">
+            Преимущества
+          </h2>
+          <ul class="list benefits-list">
+            <li class="benefits-list-item">
+              <img
+                src="./image/grey.jpg"
+                alt="Антена"
+                width="270"
+                class="icon"
+              />
               <h3 class="sub-caption">Внимание к деталям</h3>
               <p class="benefits-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="benefits-list-item">
+              <img
+                src="./image/grey.jpg"
+                alt="Антена"
+                width="270"
+                class="icon"
+              />
               <h3 class="sub-caption">Пунктуальность</h3>
               <p class="benefits-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="benefits-list-item">
+              <img
+                src="./image/grey.jpg"
+                alt="Антена"
+                width="270"
+                class="icon"
+              />
               <h3 class="sub-caption">Планирование</h3>
               <p class="benefits-text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="benefits-list-item">
+              <img
+                src="./image/grey.jpg"
+                alt="Антена"
+                width="270"
+                class="icon"
+              />
               <h3 class="sub-caption">Современные технологии</h3>
               <p class="benefits-text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -110,7 +139,7 @@
           </ul>
         </div>
       </section>
-      <section class="our-teem">
+      <section class="section our-teem">
         <div class="container">
           <h2 class="caption">
             Наша Команда
