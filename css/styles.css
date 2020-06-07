@@ -176,20 +176,55 @@ body {
   margin: 0px;
 }
 
-.benefits-list {
+.benefits-list, .what-we-do, .team-list, .networks-list {
   display: flex;
+}
+.networks-list{
+  align-items: center;
+  
+}
+.networks-item + .newtorks-item{
+margin-left:10px
 }
 .benefits-list-item {
   width: 270px;
 }
-.benefits-list-item + .benefits-list-item {
+.benefits-list-item + .benefits-list-item,
+.do-item + .do-item,
+.teem-item + .teem-item {
   margin-left: 30px;
+}
+.teem-item{
+  margin-right: 0px;
+}
+
+.teem-item p{
+  /* margin-left: 75px; */
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  margin-right: 0px;
+}
+.teem-item h3{
+  margin-left: 57px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+}
+.teem-item ul{
+  margin-left: 50px;
+  
+}
+.photo{
+  
+  margin-bottom: 30px;
+
 }
 .icon {
   margin-bottom: 30px;
-}
 
-/* фон, щоб було видно слова */
+
+
 .caption-name {
   font-weight: 500;
   font-size: 16px;
@@ -210,9 +245,7 @@ body {
 .our-teem {
   background: var(--alt-background);
 }
-.photo {
-  margin-bottom: 30px;
-}
+
 .position {
   font-weight: 400;
   font-size: 16px;
