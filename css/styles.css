@@ -185,19 +185,32 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  margin-top: 0px;
+  margin-bottom: 4px;
 }
-
+.nav {
+  padding-bottom: 50px;
+}
 .portfolio-button {
   color: var(--captions);
   background-color: var(--alt-background);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+
+  display: inline-block;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 87px;
+  border: transparent;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: var(--add-text);
   color: var(--background);
+}
+.portfolio-photo {
+  margin-bottom: 20px;
 }
 .benefits-text {
   margin-top: 0px;
@@ -207,6 +220,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.89;
+  margin-top: 0px;
 }
 
 /*  */
