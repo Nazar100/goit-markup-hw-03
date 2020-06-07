@@ -35,12 +35,18 @@ body {
 }
 .section {
   padding: 94px 215px;
+  /* background-color: blueviolet; */
+}
+.section.no-padding {
+  padding-top: 0;
 }
 .link {
   text-decoration: none;
 }
 .list {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 .main-caption {
   color: var(--background);
@@ -201,7 +207,7 @@ body {
   display: inline-block;
   border-radius: 4px;
   padding: 6px 22px;
-  min-width: 87px;
+  min-width: 73px;
   border: transparent;
 }
 .portfolio-button:hover,
@@ -242,6 +248,7 @@ footer {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+  margin: 0px;
 }
 /* фон, щоб було видно слова */
 .studio-footer,
