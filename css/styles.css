@@ -1,0 +1,296 @@
+/* фон - #FFFFFF */
+/* аль фот - #F5F4FA */
+/* фон футеру -#2F303A */
+/* Колір заголовків - #212121 */
+/* Колір тексту - #757575 */
+/* Додатковий колір - #2196F3 */
+
+:root {
+  --background: #ffffff;
+  --alt-background: #f5f4fa;
+  --foot-background: #2f303a;
+  --captions: #212121;
+  --text: #757575;
+  --add-text: #2196f3;
+}
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.header {
+  padding: 24px 215px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* border: 3px solid tomato; */
+}
+.section {
+  padding: 94px 215px;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.main-caption {
+  color: var(--background);
+  background-color: black;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+/* фон, щоб було видно слова */
+
+/* logo */
+.logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.studio {
+  color: var(--captions);
+}
+.web {
+  color: var(--add-text);
+}
+
+/* nav */
+.nav-link {
+  color: var(--captions);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--add-text);
+}
+
+.current {
+  color: var(--add-text);
+}
+.contacts {
+  color: var(--text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--add-text);
+}
+
+/* main */
+.hero {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.button {
+  background-color: var(--add-text);
+  color: var(--background);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px;
+  min-width: 200px;
+}
+.sub-caption {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.caption {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.caption,
+.sub-caption,
+.caption-name,
+.porfolio-caption {
+  color: var(--captions);
+}
+.new-caption {
+  color: var(--background);
+  background-color: grey;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+/* фон, щоб було видно слова */
+.caption-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.networks:hover,
+.networks:focus {
+  background-color: var(--add-text);
+}
+
+.clients:hover,
+.clients:focus {
+  color: var(--add-text);
+}
+.our-teem {
+  background: var(--alt-background);
+  padding: 94px 215px;
+}
+.photo {
+  margin-bottom: 30px;
+}
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+/* portfolio */
+
+.porfolio-caption {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.portfolio-button {
+  color: var(--captions);
+  background-color: var(--alt-background);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--add-text);
+  color: var(--background);
+}
+.benefits-text {
+  margin-top: 0px;
+}
+.text {
+  color: var(--text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.89;
+}
+
+/*  */
+footer {
+  background-color: var(--foot-background);
+}
+.logo-footer {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+
+  margin-bottom: 8px;
+}
+.text-footer {
+  color: var(--background);
+  background-color: var(--add-text);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+/* фон, щоб було видно слова */
+.studio-footer,
+.join-us {
+  color: var(--background);
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.join-us {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.address {
+  color: var(--background);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.contacts-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.add-info {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+}
+
+/* ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+.nav:hover {
+  color: var(--add-text);
+}
+
+
+.current {
+  color: var(--add-text);
+}
+.link {
+  background-color: var(--alt-background);
+  color: var(--captions);
+}
+.link:hover {
+  background-color: var(--add-text);
+  color: var(--background);
+}
+.link:focus {
+  background-color: var(--add-text);
+  color: var(--background);
+}
+
+
+
+.our-team {
+  background-color: var(--alt-background);
+} */
