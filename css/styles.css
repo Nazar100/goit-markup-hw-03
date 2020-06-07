@@ -1,5 +1,5 @@
 /* фон - #FFFFFF */
-/* аль фот - #F5F4FA */
+/* аль фот -background: #F5F4FA
 /* фон футеру -#2F303A */
 /* Колір заголовків - #212121 */
 /* Колір тексту - #757575 */
@@ -197,6 +197,13 @@ margin-left:10px
 .teem-item{
   margin-right: 0px;
 }
+.our-teem {
+  background: var(--alt-background);
+}
+.net{
+  background-color: burlywood;
+}
+
 
 .teem-item p{
   /* margin-left: 75px; */
@@ -241,9 +248,6 @@ margin-left:10px
 .clients:hover,
 .clients:focus {
   color: var(--add-text);
-}
-.our-teem {
-  background: var(--alt-background);
 }
 
 .position {
