@@ -242,7 +242,7 @@ border-top: 0px;
   color: var(--captions);
 }
 
-.net{
+.card-content{
  background-color: var(--background);
   padding-top: 30px;
   padding-bottom: 24px;
