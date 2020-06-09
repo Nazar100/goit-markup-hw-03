@@ -388,10 +388,7 @@ margin-left:10px
 
 
 
-.networks:hover,
-.networks:focus {
-  background-color: var(--add-text);
-}
+
 
 .clients:hover,
 .clients:focus {
