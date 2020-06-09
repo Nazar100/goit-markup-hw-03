@@ -51,6 +51,8 @@ header {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+
+  display: inline-block;
   margin-bottom: 8px;
 }
 .studio {
@@ -63,6 +65,12 @@ header {
   margin-bottom: 20px;
   
 }
+
+.contacts-email{
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
 .porfolio-caption {
   font-weight: 700;
   font-size: 18px;
@@ -90,15 +98,15 @@ footer {
  padding-bottom: 21px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-
+.address-main{
+  margin-bottom: 9px;
+}
 .address {
   color: var(--background);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
-
-  margin-bottom: 9px;
 }
 
 .section.no-padding {
@@ -355,6 +363,15 @@ margin-left:10px
   background: var(--alt-background);
 }
 
+.contacts-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+font-style: normal;
+
+  
+
+}
 
 
 .teem-item p{
@@ -422,9 +439,4 @@ margin-left:10px
 
 
 
-.contacts-footer {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-}
 
